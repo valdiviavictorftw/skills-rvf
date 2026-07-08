@@ -51,6 +51,10 @@ Para usar só em um projeto específico em vez de globalmente, copie as pastas d
 
 Quando o repositório for atualizado (`git pull`), rode o instalador de novo para sincronizar sua cópia local.
 
+## Não usa terminal / Claude Code?
+
+Se você usa Claude ou ChatGPT direto pelo chat (navegador, desktop ou celular), veja [`USANDO-SEM-CLI.md`](USANDO-SEM-CLI.md) — tem passo a passo para instalar via Claude.ai (Settings → Skills) e para aproximar via Custom GPT no ChatGPT.
+
 ## Como propor uma skill nova ou alterar uma existente
 
 Veja [`CONTRIBUTING.md`](CONTRIBUTING.md).
