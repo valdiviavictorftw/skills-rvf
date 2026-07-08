@@ -27,14 +27,29 @@ O Claude Code carrega automaticamente as skills disponíveis em `~/.claude/skill
 
 ## Como instalar
 
-Cada colaborador que usa Claude Code copia as pastas de skill para sua máquina:
+1. Clone o repositório:
 
-```bash
-git clone https://github.com/valdiviavictorftw/skills-rvf.git
-cp -r skills-rvf/skills/* ~/.claude/skills/
-```
+   ```bash
+   git clone https://github.com/valdiviavictorftw/skills-rvf.git
+   ```
 
-Ou, para usar só em um projeto específico, copie para `.claude/skills/` dentro do repositório do projeto.
+2. Rode o instalador de dentro da pasta clonada:
+
+   **Windows (PowerShell):**
+   ```powershell
+   .\install.ps1
+   ```
+
+   **Mac/Linux:**
+   ```bash
+   ./install.sh
+   ```
+
+Isso copia todas as skills para `~/.claude/skills/` (skills globais, disponíveis em qualquer projeto). Para instalar em um destino diferente, passe o caminho: `.\install.ps1 -Destination "C:\caminho"` ou `./install.sh /caminho`.
+
+Para usar só em um projeto específico em vez de globalmente, copie as pastas de `skills/` para `.claude/skills/` dentro do repositório do projeto.
+
+Quando o repositório for atualizado (`git pull`), rode o instalador de novo para sincronizar sua cópia local.
 
 ## Como propor uma skill nova ou alterar uma existente
 
