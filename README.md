@@ -18,7 +18,8 @@ O Claude Code carrega automaticamente as skills disponíveis em `~/.claude/skill
 | Skill | Uso |
 |---|---|
 | [`curadoria-documental-lacunas`](skills/curadoria-documental-lacunas/SKILL.md) | Revisão documental e identificação de lacunas antes de análise/proposta/parecer |
-| [`handoff-comercial-operacional`](skills/handoff-comercial-operacional/SKILL.md) | Converter proposta fechada em orientação operacional para a equipe de execução |
+| [`handoff-comercial-operacional`](skills/handoff-comercial-operacional/SKILL.md) | Converter venda/proposta fechada (contexto comercial) em orientação operacional para a equipe de execução |
+| [`handoff-operacional`](skills/handoff-operacional/SKILL.md) | Handoff enxuto de revisão de contrato ou passagem de caso já existente — seções separadas "pontos de observação" × "pontos a alterar" |
 | [`international-desk`](skills/international-desk/SKILL.md) | Counsel local, cross-border, coordenação de advogados estrangeiros |
 | [`logistica-maritima-antaq`](skills/logistica-maritima-antaq/SKILL.md) | Casos urgentes de logística marítima e regulação ANTAQ |
 | [`propostas-precificacao`](skills/propostas-precificacao/SKILL.md) | Estruturação de escopo, fases e honorários em propostas comerciais |
