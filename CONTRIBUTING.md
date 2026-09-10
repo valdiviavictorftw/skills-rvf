@@ -3,7 +3,7 @@
 ## Propondo uma skill nova
 
 1. Identifique um processo que se repete no escritório (comercial, operacional, societário, regulatório, redação de documento) e que hoje depende de alguém lembrar todos os passos de cabeça.
-2. Copie a estrutura de uma skill existente como modelo (ex.: `skills/sumario-executivo/SKILL.md`).
+2. Copie a estrutura de uma skill existente como modelo (ex.: `skills/sumario-executivo/SKILL.md`). Use `references/` apenas para conteúdo necessário a modos específicos, mantendo no `SKILL.md` o processo comum.
 3. Preencha as seções: `Objetivo`, `Quando acionar`, `Entradas necessárias`, `Processo`, `Saídas esperadas`.
 4. Escreva a `description` do frontmatter pensando em como o Claude Code vai decidir se aciona a skill — descreva o gatilho, não só o nome.
 5. Use linguagem neutra: não escreva para uma pessoa específica ("quando Fulano pedir"), escreva para o papel ("quando for solicitada uma proposta").
