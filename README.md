@@ -240,7 +240,6 @@ Os instaladores copiam as skills para `~/.claude/skills/`. Para escolher outro d
 
 Para instalar uma skill apenas em um projeto, copie sua pasta para `.claude/skills/` dentro do projeto. Depois de atualizar o repositório, execute novamente o instalador.
 
-Se você instalou a versão anterior chamada `conducao-comunicacoes-em-disputas`, remova a pasta antiga depois de instalar `conducao-estrategica-de-comunicacoes`. Manter as duas pode gerar acionamento duplicado.
 
 ## Uso sem terminal
 
