@@ -18,7 +18,7 @@ O assistente pode reconhecer automaticamente a skill adequada pela descrição d
 
 | Skill | Use quando precisar |
 |---|---|
-| [`conducao-comunicacoes-em-disputas`](skills/conducao-comunicacoes-em-disputas/SKILL.md) | Conduzir comunicações em negociação deteriorada, pré-contencioso ou atuação extrajudicial |
+| [`conducao-estrategica-de-comunicacoes`](skills/conducao-estrategica-de-comunicacoes/SKILL.md) | Planejar e coordenar comunicações com objetivo, consequência ou múltiplos atores |
 | [`curadoria-documental-lacunas`](skills/curadoria-documental-lacunas/SKILL.md) | Organizar documentos, separar premissas e identificar lacunas antes de avançar |
 | [`handoff-comercial-operacional`](skills/handoff-comercial-operacional/SKILL.md) | Converter venda, proposta aceita ou reunião comercial em plano de execução |
 | [`handoff-operacional`](skills/handoff-operacional/SKILL.md) | Repassar revisão ou caso existente para execução por outra pessoa da equipe |
@@ -30,24 +30,24 @@ O assistente pode reconhecer automaticamente a skill adequada pela descrição d
 
 ## Como usar cada skill
 
-### `conducao-comunicacoes-em-disputas`
+### `conducao-estrategica-de-comunicacoes`
 
-**O que faz:** organiza a linha institucional do cliente e da RVF em negociações deterioradas, pré-contencioso e atuação extrajudicial. Trata cada mensagem como parte de uma sequência estratégica.
+**O que faz:** transforma o objetivo do usuário em uma sequência coerente de comunicações. Organiza atores, autoridade, conteúdo, audiência, idioma, canal, momento e próximos passos.
 
-Reconstrói o histórico, identifica atores e autoridades, entrevista o usuário antes das minutas, analisa incentivos e reações plausíveis e coordena mensagens por destinatário, idioma, canal e momento.
+Reconstrói o histórico quando necessário, entrevista o usuário antes das minutas e analisa incentivos e reações plausíveis. Cada mensagem é tratada como um movimento que afeta as opções seguintes.
 
-**Use para:** resposta de mérito, mensagem de espera, fechamento comercial, passagem ao jurídico, reserva de direitos, notificação extrajudicial ou pacote coordenado de comunicações.
+**Use para:** alinhamento sensível, pedido de informação ou decisão, posicionamento institucional, negociação, crise, transição, resposta de mérito, espera, fechamento ou atuação extrajudicial.
 
-**Informe:** histórico disponível, objetivo do cliente, prioridades, limites, concessões possíveis, decisores, destinatários, idiomas, canais e prazos. A skill perguntará o que faltar antes de redigir.
+**Informe:** objetivo, efeito pretendido, contexto, prioridades, limites, decisores, destinatários, idiomas, canais e prazos. Em negociações, informe também concessões possíveis e alternativas.
 
-**Entregas:** diagnóstico comunicacional, comparação de movimentos, cenários de reação, recomendação de postura, minutas coordenadas e plano dos próximos passos.
+**Entregas:** planejamento ou diagnóstico comunicacional, comparação de movimentos, cenários de reação, recomendação, minutas coordenadas e plano dos próximos passos.
 
 **Exemplo de pedido:**
 
 ```text
-Use conducao-comunicacoes-em-disputas para analisar este histórico de e-mails.
-Antes de redigir, confirme comigo os objetivos, limites, aprovadores, atores,
-idiomas e próximos passos. Depois recomende o movimento e prepare as mensagens.
+Use conducao-estrategica-de-comunicacoes para organizar esta comunicação.
+Antes de redigir, confirme comigo objetivo, efeito pretendido, limites, decisores,
+atores, idiomas e próximos passos. Depois proponha a sequência e as mensagens.
 ```
 
 ### `curadoria-documental-lacunas`
@@ -203,8 +203,8 @@ As skills podem ser usadas em sequência quando o trabalho atravessa mais de uma
 | Base documental incompleta antes de análise ou reunião | `curadoria-documental-lacunas` → skill temática aplicável |
 | Nova oportunidade até o início da execução | `propostas-precificacao` → `handoff-comercial-operacional` |
 | Projeto empresarial complexo para apresentação ao cliente | `curadoria-documental-lacunas` → `reestruturacao-empresarial` → `sumario-executivo` |
-| Negociação deteriorada que exigirá execução pela equipe | `conducao-comunicacoes-em-disputas` → `handoff-operacional` |
-| Disputa marítima urgente | `logistica-maritima-antaq` + `conducao-comunicacoes-em-disputas` |
+| Comunicação sensível que exigirá execução pela equipe | `conducao-estrategica-de-comunicacoes` → `handoff-operacional` |
+| Disputa marítima urgente | `logistica-maritima-antaq` + `conducao-estrategica-de-comunicacoes` |
 | Projeto com validação em outra jurisdição | skill temática aplicável + `international-desk` |
 
 ## Instalação
@@ -239,6 +239,8 @@ Os instaladores copiam as skills para `~/.claude/skills/`. Para escolher outro d
 ```
 
 Para instalar uma skill apenas em um projeto, copie sua pasta para `.claude/skills/` dentro do projeto. Depois de atualizar o repositório, execute novamente o instalador.
+
+Se você instalou a versão anterior chamada `conducao-comunicacoes-em-disputas`, remova a pasta antiga depois de instalar `conducao-estrategica-de-comunicacoes`. Manter as duas pode gerar acionamento duplicado.
 
 ## Uso sem terminal
 

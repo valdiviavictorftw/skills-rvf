@@ -2,6 +2,37 @@
 
 Use esta referência depois do checkpoint de entrevista e da escolha da postura.
 
+## Coleta de informação ou pedido de esclarecimento
+
+Use quando o próximo passo depender de fatos, documentos, preferências ou confirmação de outro ator.
+
+Deve indicar:
+
+- por que a informação é necessária;
+- perguntas ou documentos específicos;
+- formato e prazo de resposta;
+- providência que será tomada após o recebimento.
+
+Evitar perguntas abertas demais, pedidos sem prioridade ou exposição desnecessária da estratégia.
+
+## Alinhamento, validação ou pedido de decisão
+
+Use quando cliente, equipe ou outro decisor precisar compreender o contexto e escolher um caminho.
+
+Deve apresentar:
+
+- decisão necessária;
+- objetivo e contexto indispensável;
+- opções materialmente distintas;
+- riscos, limites e recomendação;
+- prazo e consequência de não decidir.
+
+## Comunicação de orientação ou posicionamento
+
+Use quando for necessário registrar uma posição institucional, orientar execução ou alinhar expectativas.
+
+Deve esclarecer mensagem central, alcance, responsáveis, efeitos esperados e próximo marco. Adaptar o grau de contexto ao papel de cada destinatário.
+
 ## Resposta de mérito
 
 Use quando houver posição fática, contratual ou jurídica suficientemente validada e for útil enfrentar o ponto apresentado.
@@ -10,7 +41,7 @@ Deve conter, conforme o caso:
 
 - enquadramento objetivo da controvérsia;
 - fatos necessários, sem recontar todo o histórico;
-- posição do cliente;
+- posição institucional;
 - resposta aos pontos que não podem ficar sem contestação;
 - pedido ou encaminhamento concreto;
 - prazo ou próximo marco;
@@ -31,13 +62,13 @@ Deve indicar:
 
 Não prometer conclusão, prazo ou medida que dependa de terceiro sem ressalva adequada.
 
-## Fechamento formal da etapa comercial
+## Fechamento formal de etapa
 
-Use quando a negociação comercial não tiver mais espaço útil, houver impasse consolidado ou a continuidade produzir ambiguidade prejudicial.
+Use quando uma etapa tiver cumprido sua finalidade, não houver mais espaço útil ou a continuidade produzir ambiguidade prejudicial.
 
 Deve esclarecer:
 
-- que a etapa ou proposta comercial se encerrou;
+- qual etapa, proposta ou responsabilidade se encerrou;
 - quais pontos permaneceram sem acordo;
 - se existe ou não abertura para proposta futura;
 - qual canal e interlocutor passam a ser aplicáveis;
@@ -45,9 +76,9 @@ Deve esclarecer:
 
 Evitar linguagem emocional ou acusatória que dificulte eventual recomposição.
 
-## Passagem ao jurídico
+## Transição de responsabilidade ou interlocução
 
-Use quando a divergência exigir tratamento jurídico formal ou mudança de autoridade e interlocução.
+Use quando o trabalho exigir mudança de responsável, autoridade, equipe, canal ou natureza de tratamento, inclusive passagem ao jurídico.
 
 Deve informar:
 

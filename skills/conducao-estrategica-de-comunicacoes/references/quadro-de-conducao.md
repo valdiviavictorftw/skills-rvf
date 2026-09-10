@@ -2,7 +2,7 @@
 
 Use este quadro em casos com histórico extenso, múltiplos atores ou mais de uma mensagem coordenada. Preencher apenas os campos úteis ao caso.
 
-## 1. Norte do cliente
+## 1. Norte da comunicação
 
 | Campo | Registro |
 |---|---|
@@ -47,7 +47,7 @@ Use este quadro em casos com histórico extenso, múltiplos atores ou mais de um
 
 | Cenário observado | Sinal de confirmação | Próximo movimento | Responsável | Prazo |
 |---|---|---|---|---|
-| Cooperação | | | | |
+| Adesão ou cooperação | | | | |
 | Resistência ou evasão | | | | |
 | Contraproposta | | | | |
 | Silêncio | | | | |
