@@ -20,4 +20,4 @@ done
 
 echo ""
 echo "Skills instaladas em $DESTINATION"
-echo "Reinicie o Claude Code (ou abra uma nova sessão) para elas ficarem disponíveis."
+echo "Se as skills não aparecerem, reinicie o aplicativo, a CLI ou abra uma nova sessão."

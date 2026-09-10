@@ -207,43 +207,27 @@ As skills podem ser usadas em sequência quando o trabalho atravessa mais de uma
 | Disputa marítima urgente | `logistica-maritima-antaq` + `conducao-estrategica-de-comunicacoes` |
 | Projeto com validação em outra jurisdição | skill temática aplicável + `international-desk` |
 
-## Instalação
+## Instalação: escolha onde você usa a IA
 
-Clone o repositório:
+A instalação muda conforme a ferramenta. Escolha sua opção antes de baixar ou copiar arquivos:
 
-```bash
-git clone https://github.com/valdiviavictorftw/skills-rvf.git
-cd skills-rvf
-```
+| Ferramenta | Forma recomendada | Instruções completas |
+|---|---|---|
+| Claude no navegador ou app desktop | Enviar cada skill como arquivo ZIP em **Personalizar → Skills** | [Instalar no Claude](docs/INSTALACAO-CLAUDE.md#claude-no-navegador-ou-app-desktop) |
+| Claude Code no terminal | Copiar as pastas para `~/.claude/skills/` com o instalador | [Instalar no Claude Code](docs/INSTALACAO-CLAUDE.md#claude-code-no-terminal) |
+| ChatGPT no navegador | Configurar um Projeto; workspaces elegíveis também podem criar um GPT | [Configurar no ChatGPT web](docs/INSTALACAO-CHATGPT.md) |
+| ChatGPT desktop com Codex | Pedir a instalação no chat ou copiar para `~/.agents/skills/` | [Instalar no ChatGPT desktop](docs/INSTALACAO-CODEX.md#chatgpt-desktop-com-codex) |
+| Codex CLI ou extensão de IDE | Copiar as pastas para `~/.agents/skills/` | [Instalar no Codex](docs/INSTALACAO-CODEX.md#codex-cli-ou-extensão-de-ide) |
 
-No Windows PowerShell:
+### Qual caminho escolher
 
-```powershell
-.\install.ps1
-```
+- Se você usa **Claude sem terminal**, envie os ZIPs pela tela de Skills.
+- Se você usa **ChatGPT apenas no navegador**, configure um Projeto com os arquivos e as instruções das skills.
+- Se você usa **ChatGPT desktop com Codex**, pode pedir a instalação no próprio chat.
+- Se você usa **Codex CLI ou IDE**, instale as pastas localmente em `~/.agents/skills/`.
+- Se você usa **Claude Code**, instale as pastas localmente em `~/.claude/skills/`.
 
-No macOS ou Linux:
-
-```bash
-./install.sh
-```
-
-Os instaladores copiam as skills para `~/.claude/skills/`. Para escolher outro destino, informe o caminho:
-
-```powershell
-.\install.ps1 -Destination "C:\caminho\para\skills"
-```
-
-```bash
-./install.sh /caminho/para/skills
-```
-
-Para instalar uma skill apenas em um projeto, copie sua pasta para `.claude/skills/` dentro do projeto. Depois de atualizar o repositório, execute novamente o instalador.
-
-
-## Uso sem terminal
-
-Quem utiliza Claude.ai, ChatGPT ou aplicativos sem CLI pode seguir o guia [USANDO-SEM-CLI.md](USANDO-SEM-CLI.md).
+O [guia para uso sem terminal](USANDO-SEM-CLI.md) continua disponível como índice rápido para quem prefere uma orientação por interface.
 
 ## Contribuição
 

@@ -20,4 +20,4 @@ Get-ChildItem -Path $source -Directory | ForEach-Object {
 
 Write-Host ""
 Write-Host "Skills instaladas em $Destination"
-Write-Host "Reinicie o Claude Code (ou abra uma nova sessão) para elas ficarem disponíveis."
+Write-Host "Se as skills não aparecerem, reinicie o aplicativo, a CLI ou abra uma nova sessão."
